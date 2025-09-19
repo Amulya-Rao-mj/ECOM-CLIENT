@@ -11,13 +11,11 @@ const App = () => {
     <div>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/register" element = {<Register/>} />
-        <Route path="/admin/products" element = {<AdminProducts/>} />
-        <Route path="/admin/users" element = {<AdminUsers/>} />
-        <Route path="/admin/orders" element = {<AdminOrders/>} />
-        <Route path="/user/products" element = {<UserProducts/>} />
-
-    
+        <Route path="/register" element={<Register />} />
+        <Route path="/admin/products" element={<AdminProducts />} />
+        <Route path="/admin/users" element={<AdminUsers />} />
+        <Route path="/admin/orders" element={<AdminOrders />} />
+        <Route path="/user/products" element={<UserProducts />} />
       </Routes>
     </div>
   );
