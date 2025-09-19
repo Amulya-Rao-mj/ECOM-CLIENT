@@ -1,9 +1,16 @@
-import React from 'react'
+import AdminTopbar from "@/components/Topbar/AdminTopbar";
+import { Outlet } from "react-router-dom";
 
 const AdminLayouts = () => {
   return (
-    <div>AdminLayouts</div>
-  )
-}
+    <div>
+      className="flex justify-start items-centre flex-col
+      <AdminTopbar />
+      <main>
+        <Outlet />
+      </main>
+    </div>
+  );
+};
 
-export default AdminLayouts
+export default AdminLayouts;
